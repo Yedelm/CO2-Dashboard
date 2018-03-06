@@ -2,13 +2,15 @@
   "name": "co2dashboard",
   "version": "1.0.0",
   "description": "",
-  "main": "index.html",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Hanwei Liu",
   "license": "ISC",
   "dependencies": {
+    "ejs": "^2.5.7",
+    "express": "^4.16.2",
     "http-server": "^0.11.1",
     "start": "http-server"
   }
